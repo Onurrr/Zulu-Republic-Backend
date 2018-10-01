@@ -1,0 +1,17 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prettier.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "firebase": "^5.4.0",
+    "node-forge": "^0.7.6"
+  }
+}

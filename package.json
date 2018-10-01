@@ -1,0 +1,51 @@
+{
+  "name": "zulu-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production-eth": "node src/process-manager --stage production --chain eth",
+    "staging-eth": "node src/process-manager --stage staging --chain eth --encryptionKey TestKey",
+    "development-eth": "node src/process-manager --stage development --chain eth --encryptionKey TestKey",
+    "production-ltc": "node src/process-manager --stage production --chain ltc",
+    "staging-ltc": "node src/process-manager --stage staging --chain ltc",
+    "development-ltc": "node src/process-manager --stage development --chain ltc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulurepublic/zulu-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zulurepublic/zulu-backend/issues"
+  },
+  "homepage": "https://github.com/zulurepublic/zulu-backend#readme",
+  "dependencies": {
+    "abi-decoder": "^1.2.0",
+    "await-completion": "^1.0.0",
+    "bip39": "^2.5.0",
+    "bitcoinjs-lib": "github:majestic84/bitcoinjs-lib",
+    "body-parser": "^1.18.3",
+    "cluster": "^0.7.7",
+    "coinselect": "^3.1.11",
+    "dotenv": "^6.0.0",
+    "e164": "0.0.5",
+    "express": "^4.16.3",
+    "express-rate-limit": "^3.2.0",
+    "firebase-admin": "^6.0.0",
+    "helmet": "^3.13.0",
+    "litecore-explorers": "github:majestic84/litecore-explorers",
+    "lodash": "^4.17.10",
+    "minimist": "^1.2.0",
+    "module-alias": "^2.1.0",
+    "os": "^0.1.1",
+    "twilio": "^3.19.1",
+    "twill": "^0.2.0",
+    "ursa": "^0.9.4",
+    "util": "^0.11.0",
+    "uuid": "^3.3.2",
+    "web3": "^1.0.0-beta.35"
+  }
+}
