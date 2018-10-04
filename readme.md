@@ -1,3 +1,5 @@
+![Zulu Republic](https://www.zulurepublic.io/static/icons/apple-touch-icon-144x144.png)
+
 ## 1. What is Zulu Republic?
 
 [Zulu Republic](https://www.zulurepublic.io/) is an ecosystem of blockchain tools and services designed as a place where people, businesses, and organizations can thrive on their own terms. 
